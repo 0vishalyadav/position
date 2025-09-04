@@ -13,5 +13,12 @@ background-position: center;
 }
 .pig-1{
     background-image: url(images/image1.png);
+    min-height: 100%;
+}
+.main-tag{
+    width: 100%;
+text-align: center;
+}
+.one-tag{
     
 }
