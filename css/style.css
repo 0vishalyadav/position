@@ -3,15 +3,15 @@ margin: 0;
 padding: 0;
 height: 100%;
 line-height: 1.8em;
+}
+.pig-1{
+   position: relative; 
+   background-repeat: no-repeat;
+   background-size: cover;
+background-position: center;
 
 }
 .pig-1{
-     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
-.pig-1{
     background-image: url(images/image1.png);
-    min-height: 100%;
+    
 }
