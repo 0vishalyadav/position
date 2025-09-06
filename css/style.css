@@ -1,7 +1,9 @@
 *{
-    box-sizing: border-box;
+box-sizing: border-box;
 margin: 0;
 line-height: 1.8em;
+padding: 0;
+margin: 0;
 }
 .pig-1,.pig-2{
 position: relative; 
@@ -45,4 +47,27 @@ font-size: 25px;
     padding: 20px 80px;
     letter-spacing: 1px;
 }
+.pig-2{
+    background-image: url(images/image2.png);
+    min-height: 400px;
+}
+.second-tag{
+color: white;
+position: absolute;
+width: 100%;
+font-size:27px;
+text-transform: uppercase;
+text-align: center;
+letter-spacing: 10px;
+top:60%;
+}
+.second-text{
+  background-color: black;  
+padding: 20px;
 
+}
+.section-dark{
+color: white;
+background-color:black;
+padding: 50px 80px;
+}
