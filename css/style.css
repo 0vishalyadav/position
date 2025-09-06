@@ -5,7 +5,7 @@ line-height: 1.8em;
 padding: 0;
 margin: 0;
 }
-.pig-1,.pig-2{
+.pig-1,.pig-2,.pig-3{
 position: relative; 
 background-repeat: no-repeat;
 background-size: cover;
@@ -70,4 +70,26 @@ padding: 20px;
 color: white;
 background-color:black;
 padding: 50px 80px;
+}
+.pig-3{
+   background-image: url(images/image3.png);
+    height: 700px;
+}
+.forest-main{
+    position:absolute;
+    font-size:27px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 15px;
+    top:50% ;
+
+
+
+
+}
+.inside-forest{
+    background-color: black;
+    padding: 30px ;
 }
