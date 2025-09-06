@@ -1,24 +1,48 @@
 *{
+    box-sizing: border-box;
 margin: 0;
-padding: 0;
-height: 100%;
 line-height: 1.8em;
 }
-.pig-1{
-   position: relative; 
-   background-repeat: no-repeat;
-   background-size: cover;
-background-position: center;
+.pig-1,.pig-2{
+position: relative; 
+background-repeat: no-repeat;
+background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+
 
 }
 .pig-1{
-    background-image: url(images/image1.png);
-    min-height: 100%;
+   background-image: url(images/image1.png);
+    height: 100vh;
 }
 .main-tag{
-    width: 100%;
+top: 50%;
+position: absolute;
+ width: 100%;
 text-align: center;
 }
 .one-tag{
+    padding: 20px;
+    font-size:27px ;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    letter-spacing: 20px;
+}
+.section-light{
+    color: black;
+    background-color: #f4f4f4;
+    text-align: center;
     
 }
+ .section-light h1 {
+    padding: 20px 80px;
+
+}
+.section-light p{
+font-size: 25px;
+    padding: 20px 80px;
+    letter-spacing: 1px;
+}
+
